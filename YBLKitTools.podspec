@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YBLKitTools"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "UIKit extend and crategory tools."
 
   # This description is used to generate tags and improve search results.
@@ -94,11 +94,14 @@ Pod::Spec.new do |s|
 
 
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.subspec 'YBLCategory' do |inter|
+    inter.source_files = 'YBLKitTools/YBLCategory/YBLLabel/**/*.{h,m}'
+  end
 
 
-  s.source_files  = "YBLKitTools", "YBLKitTools/Classes/YBLCategory/**/*.{h,m}"
-
+  s.subspec 'YBLMacro' do |mac|
+    mac.source_files = 'YBLKitTools/YBLMacro/**/*.{h,m}'
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
