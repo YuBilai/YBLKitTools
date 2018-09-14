@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'YBLMacro' do |mac|
-    mac.source_files = 'YBLKitTools/YBLMacro/**/*.{h}'
+    mac.source_files = 'YBLKitTools/YBLMacro/*.{h}'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
