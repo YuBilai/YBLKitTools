@@ -94,13 +94,15 @@ Pod::Spec.new do |s|
 
   #YBLKitTools/YBLKitTools/YBLMacro/YBLMacro/YBLUtilsMacro.h
 
-  s.subspec 'YBLCategory' do |inter|
-    inter.source_files = 'YBLKitTools/YBLCategory/YBLLabel/**/*'
-  end
+  #s.subspec 'YBLCategory' do |inter|
+  #  inter.source_files = 'YBLKitTools/YBLCategory/YBLLabel/**/*'
+  #end
 
-  s.subspec 'YBLMacro' do |cor|
-    cor.source_files = 'YBLKitTools/YBLMacro/*'
-  end
+  #s.subspec 'YBLMacro' do |cor|
+  #  cor.source_files = 'YBLKitTools/**/*'
+  #end
+
+  s.source_files = 'YBLKitTools/**/*'
 
 
 
