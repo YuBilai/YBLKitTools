@@ -102,8 +102,15 @@ Pod::Spec.new do |s|
   #  cor.source_files = 'YBLKitTools/**/*'
   #end
 
-  s.source_files = 'YBLKitTools/**/*'
+  #s.source_files = 'YBLKitTools/**/*'
 
+   s.subspec 'YBLCategory' do |ss|
+    ss.source_files = 'YBLKitTools/YBL{Label}Category.{h,m}'
+  end
+
+  s.subspec 'YBLMacro' do |ss|
+    ss.source_files = 'YBLKitTools/YBL{Color,Device,Utils}Macro.{h}'
+  end
 
 
 
