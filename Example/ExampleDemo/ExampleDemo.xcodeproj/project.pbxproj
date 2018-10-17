@@ -57,6 +57,7 @@
 		C7AF7A6A214B4AB600D19DBB /* YBLDeviceMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLDeviceMacro.h; sourceTree = "<group>"; };
 		C7AF7A6B214B4C8A00D19DBB /* YBLUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLUtilsMacro.h; sourceTree = "<group>"; };
 		C7AF7A6C214B4CA000D19DBB /* YBLColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLColorMacro.h; sourceTree = "<group>"; };
+		C7B4B3582177282A0008B047 /* YBLKitTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBLKitTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 		C7AF7A62214B496100D19DBB /* YBLKitTools */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4B3582177282A0008B047 /* YBLKitTools.h */,
 				C7AF7A68214B49AB00D19DBB /* YBLMacro */,
 				C7AF7A63214B496100D19DBB /* YBLCategory */,
 			);

@@ -9,5 +9,7 @@
 #ifndef YBLKitTools_h
 #define YBLKitTools_h
 
+#import YBLDeviceMacro.h
+
 
 #endif /* YBLKitTools_h */
